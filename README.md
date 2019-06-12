@@ -1,4 +1,4 @@
-Terraria Tile Generator
+# Terraria-Tile-Generator
 
 Before you download the generator, make sure python 3 is installed, added to your %PATH% and %PYTHONPATH%, tkinter is installed and pip is installed.
 
