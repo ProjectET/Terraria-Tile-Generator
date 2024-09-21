@@ -29,7 +29,7 @@ if not os.path.exists("Blocks"):
 
 def MakeTile(shadesNum, colors):
     print("\nStarted!")
-    template = np.asarray(PIL.Image.open(resource_path(textype.get())).convert("RGBA"))
+    template = np.asarray(PIL.Image.open(resource_path(textype.get())).convert("RGBA")).copy()
     template.setflags(write=1)
     print(template.flags)
 
