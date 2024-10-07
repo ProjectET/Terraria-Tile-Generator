@@ -1,9 +1,13 @@
-# Terraria-Tile-Generator
+# Terraria Tile Generator
 
-Before you download the generator, make sure python 3 is installed, added to your %PATH% and %PYTHONPATH%, tkinter is installed and pip is installed.
+### Now ported to Rust!
 
-Some dependencies must be installed before using this script, open up a terminal window and type in: 'pip3 install pillow numpy==1.15' (Without quotes).
+This version was a test for me to learn not only how to program in Rust but to also learn egui as well. Originally I had used the RSTK crate but wanted a more modern looking UI and settled for egui.
 
-For some strange reason the latest numpy does not allow the image array to be flagged as writeable and thus 1.15 must be used instead.
+To compile TTG:
+1. Install `rustup`. You can download this from `https://www.rust-lang.org/tools/install`
+2. Clone this repository with `git clone https://github.com/ProjectET/Terraria-Tile-Generator.git` 
+3. Run `cargo build --release --package TerrariaTileGenerator`
+4. The generated executable will be located in `./target/release/TerrariaTileGenerator.exe`
 
-Original credits go to ghost20000, none of the code is mine and I am only uploading it since the repo link is dead. Some modifications had been made to the original code such as the ability to name the template.
+Original credits go to ghost20000 for the original tool written in python.
